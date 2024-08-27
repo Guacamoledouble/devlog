@@ -12,21 +12,22 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `vegabond-coder`,
+      name: `Lazy Wanderer`,
       href: "https://github.com/Guacamoledouble/devlog",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "vegabond-coder",
-    description: "welcome to warehouse",
+    title: "Lazy Wanderer",
+    description: "welcome to my warehouse",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://vagabond-coder.netlify.app/",
+  link: "https://lazy-wanderer.vercel.app/",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
