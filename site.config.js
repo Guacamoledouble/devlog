@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Hoejun Kwon",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/hachiware.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Clinical Statistician & AI builder",
     bio: "I research and study cancer.",
     email: "hoejunkwon96@gmail.com",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "vegabond-coder",
-    description: "welcome to morethan-log!",
+    description: "welcome to warehouse",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
@@ -27,13 +27,11 @@ const CONFIG = {
   link: "https://vagabond-coder.netlify.app/",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
   },
-
   // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
