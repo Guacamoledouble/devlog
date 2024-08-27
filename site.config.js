@@ -2,12 +2,12 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Hoejun Kwon",
-    image: "/hachiware.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/hachiware.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Clinical Statistician & AI builder",
     bio: "I research and study cancer.",
     email: "hoejunkwon96@gmail.com",
     linkedin: "hoejunkwon",
-    github: "Guacamoledouble",
+    github: "hoejunkwon",
     instagram: "",
   },
   projects: [
