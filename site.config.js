@@ -10,12 +10,6 @@ const CONFIG = {
     github: "hoejunkwon",
     instagram: "",
   },
-  projects: [
-    {
-      name: `Lazy Wanderer`,
-      href: "https://github.com/Guacamoledouble/devlog",
-    },
-  ],
   // blog setting (required)
   blog: {
     title: "Lazy Wanderer",
